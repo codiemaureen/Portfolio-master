@@ -2703,18 +2703,6 @@ input[type="button"]:disabled,
 	justify-content: space-between;
 	position: fixed;
 	align-items: flex-end;
-	background-attachment: scroll, scroll;
-	background: url("/images/fulls/portfolio-background.jpg") no-repeat center center;
-	background-size: cover;
-	background-position: fixed;
-	color: rgba(255, 255, 255, 0.5);
-	height: 105vh;
-	left: 0;
-	padding: 8em 4em;
-	text-align: right;
-	top: 0;
-	width: 25vw;
-	border-right: 15px solid rgb(2, 17, 2);
 }
 
 #header>* {
@@ -2726,14 +2714,25 @@ input[type="button"]:disabled,
 }
 
 #header>.inner {
+	background: url("/images/fulls/portfolio-background.jpg") no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: rgba(255, 255, 255, 0.5);
+	height: 100vh;
+	left: 0;
+	padding: 8em 4em;
+	text-align: right;
+	top: 0;
+	width: 25vw;
+	border-right: 15px solid rgb(2, 17, 2);
+}
+
+h1.intro {
 	-moz-flex-grow: 1;
 	-webkit-flex-grow: 1;
 	-ms-flex-grow: 1;
 	flex-grow: 1;
 	margin: 0 0 2em 0;
-}
-
-h1.intro {
 	background-color: rgba(2, 17, 2, 0.744);
 	;
 	padding-right: 3rem;
