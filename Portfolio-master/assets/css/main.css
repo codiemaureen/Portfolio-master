@@ -2706,14 +2706,15 @@ input[type="button"]:disabled,
 	background-attachment: scroll, scroll;
 	background: url("/images/fulls/portfolio-background.jpg") no-repeat center center;
 	background-size: cover;
-	background-position: sticky;
+	background-position: fixed;
 	color: rgba(255, 255, 255, 0.5);
-	height: 110vh;
+	height: 105vh;
 	left: 0;
 	padding: 8em 4em;
 	text-align: right;
 	top: 0;
 	width: 25vw;
+	border-right: 15px solid rgb(2, 17, 2);
 }
 
 #header>* {
@@ -2733,8 +2734,10 @@ input[type="button"]:disabled,
 }
 
 h1.intro {
-	background-color: rgba(13, 70, 30, 0.665);
+	background-color: rgba(2, 17, 2, 0.744);
 	;
+	padding-right: 3rem;
+	padding-bottom: 5rem;
 }
 
 #header strong,
