@@ -2719,7 +2719,7 @@ input[type="button"]:disabled,
 
 #header>.inner {
 	background: url("/images/fulls/portfolio-background.jpg") no-repeat center center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: cover;
 	color: rgba(255, 255, 255, 0.5);
 	min-width: 50vw;
@@ -3386,9 +3386,15 @@ body.is-touch .poptrox-popup .closer {
 		padding: 4.5em 1.5em;
 	}
 
-	#header h1 br {
-		display: none;
+	#header h1{
+		padding: 20%;
+		text-align: right;
 	}
+
+	#header .inner{
+		background-position: center;
+	}
+	
 
 	/* Footer */
 
