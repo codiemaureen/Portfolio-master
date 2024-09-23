@@ -2722,7 +2722,7 @@ input[type="button"]:disabled,
 	background-attachment: fixed;
 	background-size: cover;
 	color: rgba(255, 255, 255, 0.5);
-	min-width: 100vw;
+	min-width: 50vw;
 	border: 7px solid purple;
 	padding: 8em 4em;
 	text-align: right;
